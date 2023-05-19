@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/grey">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/image"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SOS"
+        android:textSize="20dp"
+        android:padding="50dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="@color/red"
+        android:id="@+id/btn_sos"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIREN"
+        android:textSize="20dp"
+        android:padding="50dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/black"
+        android:id="@+id/btn_siren"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Emergency Number"
+        android:padding="50dp"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="@color/teal_700"
+        android:id="@+id/btn_emergencynumber"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Phone Number"
+        android:layout_margin="5dp"
+        android:id="@+id/btn_registerphonenumber"
+        />
+
+
+</LinearLayout>
